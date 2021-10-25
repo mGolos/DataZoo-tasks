@@ -15,5 +15,5 @@ if __name__ == '__main__':
         "Chessboard": ('Task1 Chessboard', subpages.chessboard),
         'Today': ("Task2 Today", subpages.today),
         'Audit': ("Task2 History", subpages.history),
-        'AWS': ("Task3 AWS", st.write("[Also available on AWS.](http://3.138.183.205:8501)")),
+        'Aws': ("Task3 AWS", st.write("[Also available on AWS.](http://3.138.183.205:8501)")),
     })()
