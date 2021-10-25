@@ -79,6 +79,7 @@ def main():
         col1.download_button(label="Download the image file", data=file, file_name=board.img_address.split('/')[-1])
     with open(board.html_address, "rb") as file:
         col2.download_button(label="Download the html file", data=file, file_name=board.html_address.split('/')[-1])
+        col2.warning('(html version may not work on mobile)')
 
 
 if __name__ == '__main__':
