@@ -67,8 +67,8 @@ class Chessboard():
 def main():
     st.title('Task 1: Chess board')
     col1, col2 = st.columns(2)
-    table_width = col1.slider('Table width:', 8, 1080, 270)
-    cell_width = col2.slider('Cell width:', 1, table_width //2 , max(table_width // 9, 1))
+    table_width = col1.slider('Table width:', 8, 1080, 270, format="%dpx")
+    cell_width = col2.slider('Cell width:', 1, table_width //2 , max(table_width // 9, 1), format="%dpx")
     
     board = Chessboard(table_width=table_width, cell_width=cell_width)
     board.save_files()

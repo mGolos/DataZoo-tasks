@@ -4,7 +4,7 @@ from sqlalchemy.orm import load_only
 
 
 def main():
-    st.title('Weather')
+    st.title('Task 2: History')
     db = opendb()
     
     # Asks for all dates and ids only
