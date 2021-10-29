@@ -1,4 +1,4 @@
-![logo](files/logo.png)  
+![logo](files/logo0.png)  
 
 # Tasks for DataZoo
 * Hosted on Steamlit : [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/mGolos/DataZoo-tasks/master/app.py)
